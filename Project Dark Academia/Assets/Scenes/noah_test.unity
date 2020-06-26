@@ -3607,10 +3607,10 @@ MonoBehaviour:
       secondsToStayInvincibleAfterBeingHurt: 1
     fallDamage:
       receiveFallDamage: 1
-      minimumFallSpeedToReceiveDamage: 4
+      minimumFallSpeedToReceiveDamage: 2
       minimumReceivableDamage: 2
       speedDamageMultiple: 6
-      maxGroundedDistance: 0.2
+      maxGroundedDistance: 0.1
       collisionLayers:
         serializedVersion: 2
         m_Bits: 4294967275
@@ -3651,13 +3651,13 @@ MonoBehaviour:
   onLedgeHeight: 0
   ledgeAngleLimit: 25
   distanceToPushOffOfLedgeAfterLettingGo: 0.5
-  maxGroundedDistance: 0.2
+  maxGroundedDistance: 0.25
   climbingDetectors:
-    pullUpSpeed: 2
+    pullUpSpeed: 5
     allowClimbingOverLedgesIfInAir: 1
     allowClimbingOverLedgesIfOnGround: 1
     automaticallyClimbOverGroundLedgeIfColliding: 1
-    climbOverLedgesWithoutLettingGoOfJoystickFirst: 1
+    climbOverLedgesWithoutLettingGoOfJoystickFirst: 0
     showClimbDetectionRays: 1
     spaceAboveHeadNeededToGrabOn: 0
     spaceAboveHeadNeededToClimbUp: 0
@@ -4047,7 +4047,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 1.12
+  m_Height: 1.05
   m_Radius: 0.2
   m_SlopeLimit: 45
   m_StepOffset: 0.3
